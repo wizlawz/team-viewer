@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T06:49:18Z",
+ "generated_at_utc": "2026-11-22T06:54:38Z",
  "room": "the-room",
  "participants": [
   {
@@ -36,7 +36,7 @@
     "read",
     "reply"
    ],
-   "connection": "browser-carried — not independently connected"
+   "connection": "browser-carried \u2014 not independently connected"
   }
  ],
  "messages": [
@@ -62,3 +62,27 @@
   },
   {
    "seq": 3,
+   "event": "join",
+   "who": "jeax",
+   "hash": "2d19894b0e"
+  },
+  {
+   "seq": 4,
+   "event": "rejected",
+   "who": "seed",
+   "hash": "aff2dd10c9"
+  },
+  {
+   "seq": 5,
+   "event": "rejected",
+   "who": "seed",
+   "hash": "b1909c3b20"
+  },
+  {
+   "seq": 6,
+   "event": "join",
+   "who": "chris",
+   "hash": "215d189b1c"
+  }
+ ]
+}
