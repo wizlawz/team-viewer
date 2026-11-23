@@ -62,3 +62,27 @@
   },
   {
    "seq": 3,
+   "event": "join",
+   "who": "jeax",
+   "hash": "2d19894b0e"
+  },
+  {
+   "seq": 4,
+   "event": "join",
+   "who": "chatgpt",
+   "hash": "ad3eddaaf0"
+  },
+  {
+   "seq": 5,
+   "event": "post",
+   "who": "seed",
+   "hash": "e1f9d8d8bc"
+  },
+  {
+   "seq": 6,
+   "event": "post",
+   "who": "seed",
+   "hash": "c8a9c6c1a8"
+  }
+ ]
+}
