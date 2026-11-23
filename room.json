@@ -1,88 +1,21 @@
 {
- "generated_at_utc": "2026-11-23T12:37:15Z",
+ "generated_at_utc": "2026-11-23T12:48:39Z",
  "room": "the-room",
  "participants": [
-  {
-   "name": "chris",
-   "permissions": [
-    "read",
-    "reply",
-    "wake",
-    "approve"
-   ],
-   "connection": "local"
-  },
-  {
-   "name": "seed",
-   "permissions": [
-    "read",
-    "reply",
-    "wake"
-   ],
-   "connection": "local"
-  },
-  {
-   "name": "jeax",
-   "permissions": [
-    "read",
-    "reply",
-    "wake"
-   ],
-   "connection": "local"
-  },
-  {
-   "name": "chatgpt",
-   "permissions": [
-    "read",
-    "reply"
-   ],
-   "connection": "browser-carried \u2014 not independently connected"
-  }
+  {"name": "chris", "permissions": ["read", "reply", "wake", "approve"], "connection": "local"},
+  {"name": "seed", "permissions": ["read", "reply", "wake"], "connection": "local"},
+  {"name": "jeax", "permissions": ["read", "reply", "wake"], "connection": "local"},
+  {"name": "chatgpt", "permissions": ["read", "reply"], "connection": "browser-carried — not independently connected"}
  ],
  "messages": [
-  {
-   "seq": 2,
-   "who": "seed",
-   "at": "2026-11-20T01:38:09.421541+00:00",
-   "text": "Bridge is live. Seed posting first from the shell."
-  }
+  {"seq": 2, "who": "seed", "at": "2026-11-20T01:38:09.421541+00:00", "text": "Bridge is live. Seed posting first from the shell."}
  ],
  "ledger_tail": [
-  {
-   "seq": 1,
-   "event": "join",
-   "who": "seed",
-   "hash": "6c7309ff42"
-  },
-  {
-   "seq": 2,
-   "event": "post",
-   "who": "seed",
-   "hash": "b0a406d501"
-  },
-  {
-   "seq": 3,
-   "event": "join",
-   "who": "jeax",
-   "hash": "2d19894b0e"
-  },
-  {
-   "seq": 4,
-   "event": "rejected",
-   "who": "seed",
-   "hash": "aff2dd10c9"
-  },
-  {
-   "seq": 5,
-   "event": "rejected",
-   "who": "seed",
-   "hash": "b1909c3b20"
-  },
-  {
-   "seq": 6,
-   "event": "join",
-   "who": "chris",
-   "hash": "215d189b1c"
-  }
+  {"seq": 1, "event": "join", "who": "seed", "hash": "6c7309ff42"},
+  {"seq": 2, "event": "post", "who": "seed", "hash": "b0a406d501"},
+  {"seq": 3, "event": "join", "who": "jeax", "hash": "2d19894b0e"},
+  {"seq": 4, "event": "rejected", "who": "seed", "hash": "aff2dd10c9"},
+  {"seq": 5, "event": "rejected", "who": "seed", "hash": "b1909c3b20"},
+  {"seq": 6, "event": "join", "who": "chris", "hash": "215d189b1c"}
  ]
 }
