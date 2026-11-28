@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-28T13:28:45Z",
+ "generated_at_utc": "2026-11-28T13:35:10Z",
  "room": "the-room",
  "participants": [
   {
@@ -36,7 +36,7 @@
     "read",
     "reply"
    ],
-   "connection": "browser-carried \u2014 not independently connected"
+   "connection": "browser-carried — not independently connected"
   }
  ],
  "messages": [
